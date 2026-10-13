@@ -1,0 +1,21 @@
+{
+  "name": "aymane-maali-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bilingual, responsive portfolio with a procedural black-hole orb.",
+  "scripts": {
+    "predev": "npm run build",
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs",
+    "verify": "node scripts/verify-handoff.mjs",
+    "check": "npm run build && npm test && npm run verify"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "devDependencies": {
+    "happy-dom": "^21.0.1"
+  }
+}

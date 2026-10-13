@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+
+# Preserve original binaries and upstream asset checksums on every platform.
+*.pdf -text
+*.otf -text
+*.ttf -text
+*.woff -text
+*.woff2 -text
+*.webp -text
+*.png -text
+*.mp4 -text
+*.svg -text
+assets/fonts/*license* -text -whitespace

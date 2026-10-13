@@ -1,0 +1,3 @@
+const files={React:'react','Next.js':'nextjs',TypeScript:'typescript',JavaScript:'javascript',Python:'python',Java:'java','Spring Boot':'springboot','Node.js':'nodejs',FastAPI:'fastapi',Django:'django',PostgreSQL:'postgresql',MySQL:'mysql','SQL Server':'sqlserver',Firebase:'firebase',Prisma:'prisma',Docker:'docker',Kubernetes:'kubernetes',Jenkins:'jenkins',Linux:'linux',Git:'git',Keycloak:'keycloak',Playwright:'playwright',Postman:'postman',Flutter:'flutter',GitHub:'github',LinkedIn:'linkedin',Instagram:'instagram',WhatsApp:'whatsapp'};
+export function iconFile(name){return `public/icons/${files[name]||name.toLowerCase().replace(/[^a-z0-9]/g,'')}.svg`;}
+export const darkIcons=new Set(['Next.js','Django','Prisma','Linux','Keycloak','GitHub','Instagram','WhatsApp']);

@@ -1,0 +1,6 @@
+.git
+.github
+.analysis
+node_modules
+dist
+scripts/generate-social-preview.py
